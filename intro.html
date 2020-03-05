@@ -1,33 +1,81 @@
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Intro | Worked in Dev</title>
-<link rel="stylesheet" href="styles/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Drake Packard">
+  <title>Intro | Worked in Dev</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
-<div>
-  <h1 id="worked-in-dev"><a href="http://worked-in-dev.com/index.html">¯\_(ツ)_/¯</a> Introduction</h1>
-  <h2>Hello world! I bet you're wondering why I've called you here.</h2>
-  <p>Well the short answer is I have no clue why you're here but I'm glad to have you, and I welcome you. Thanks for taking some time to visit my little corner of the internet. I wanted to build a site where I could practice some new skills. Skills like: </p>
-  <ul>
-    <li>Infrastructure as Code</li>
-    <li>Networking</li>
-    <li>Configuring servers</li>
-    <li>Not webdev</li>
-    <ul>
-      <li>No... seriously I respect your trade enough not to meddle in it. I loathe webdev work. Thank you for carrying that burden so I don't have to do it.</li>
-    </ul>
-    <li>More stuff I haven't even thought of yet</li>
-  </ul>
-  <br>
-  <h2>Still here? Great!</h2>
-  <p>I didn't mention the OTHER skill I came to practice. That's presenting my thougts and ideas to others. That may seem a little silly since that's a skill every person needs and should probably have, right? It probably sounds even sillier coming from the person who doesn't even want to take a few minutes to write up some CSS to better present their ideas. Well practice makes perfecet and I like sharing my thoughts, ideas, and experiences. Lately I've been feeling that maybe some other people would want to hear my thoughts. I don't think these are revolutionary new concepts or ideas but I believe information coming from passionate sources can be helpful. The best part is, you get to choose whether you think I'm just some ranting fool on the web and ignore it or if it's helpful to you.</p>
-  <br>
-  <h2>So what are these thoughts and ideas I want to share?</h2>
-  <p>Well I'm glad you asked. These thoughts and ideas are primarily going to revolve around my experience as a software engineer, specifically on the automation team for a cloudsuite application product.</p>
-  <br>
-  <h2>Epilogue</h2>
-  <p>If you're still here then, truly, thank you. I hope you enjoy what I have to share. If you haven't realized yet I can be sarcastic from time to time or indulge way too far into making jokes. I will try my best to keep an appropriate level of information against the backdrop of really horrible humor I attempt to employ.</p>
-</div>
+  <!-- Navbar -->
+  <div class="bs-component">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="http://worked-in-dev.com/index.html">¯\_(ツ)_/¯</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="http://worked-in-dev.com/home.html">~ <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://worked-in-dev.com/intro.html">Intro</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- Main -->
+  <main role="main">
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-3">Hello world!</h1>
+        <p class="lead">I bet you're wondering why I've called you here. Well the short answer is I have no clue why you're here but I'm glad to have you, and I welcome you. Thanks for taking some time to visit my little corner of the internet. I wanted to build a site where I could practice some new skills. Skills like: </p>
+        <ul>
+          <li>Infrastructure as Code</li>
+          <li>Networking</li>
+          <li>Configuring servers</li>
+          <li>Not webdev</li>
+          <ul>
+            <li>No... seriously I respect your trade enough not to meddle in it. I loathe webdev work. Thank you for carrying that burden so I don't have to do it.</li>
+          </ul>
+          <li>More stuff I haven't even thought of yet</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Row of columns -->
+      <div class="row">
+        <!-- Column -->
+        <div class="col-md-4">
+          <h2>Still here? Great!</h2>
+          <p>I didn't mention the OTHER skill I came to practice. That's presenting my thougts and ideas to others. That may seem a little silly since that's a skill every person needs and should probably have, right? It probably sounds even sillier coming from the person who doesn't even want to take a few minutes to write up some CSS to better present their ideas. Well practice makes perfecet and I like sharing my thoughts, ideas, and experiences. Lately I've been feeling that maybe some other people would want to hear my thoughts. I don't think these are revolutionary new concepts or ideas but I believe information coming from passionate sources can be helpful. The best part is, you get to choose whether you think I'm just some ranting fool on the web and ignore it or if it's helpful to you.</p>
+          <!-- <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p> -->
+        </div>
+        <!-- Column -->
+        <div class="col-md-4">
+          <h2>What are these thoughts and ideas?</h2>
+          <p>Well I'm glad you asked. These thoughts and ideas are primarily going to revolve around my experience as a software engineer, specifically on the automation team for a cloudsuite application product.</p>
+          <!-- <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p> -->
+        </div>
+        <!-- Column -->
+        <div class="col-md-4">
+          <h2>Epilogue</h2>
+          <p>If you're still here then, truly, thank you. I hope you enjoy what I have to share. If you haven't realized yet I can be sarcastic from time to time or indulge way too far into making jokes. I will try my best to keep an appropriate level of information against the backdrop of really horrible humor I attempt to employ.</p>
+          <!-- <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p> -->
+        </div>
+      </div>
+      <hr>
+    </div> <!-- /container -->
+  </main>
+  <footer class="container">
+    <p>A simple website hosted as a personal project. If you're reading this you've gone too far.</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
