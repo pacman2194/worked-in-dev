@@ -1,5 +1,7 @@
 #naive Makefile to get all the necessary files in the correct location for the site
-WEBROOT = /var/www/html #web root for the site
+#web root for the site
+WEBROOT = /var/www/html
+
 
 #download and extract files and move them into the appropriate structure in this directory
 all:
